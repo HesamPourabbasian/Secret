@@ -62,7 +62,7 @@ const Video = () => {
   return (
     <div
       ref={bgRef}
-      className="animals bg-[url('/Video.png')] h-[900px] bg-no-repeat bg-center flex items-center justify-center relative object-cover mobile:bg-[10%_20%]"
+      className="animals bg-[url('/Video.png')] h-[900px] bg-no-repeat bg-center flex items-center justify-center relative object-cover mobile:bg-[20%_20%] mobile:bg-cover"
     >
       {/* Centered image */}
       <div className="absolute pt-[50px] top-0 left-1/2 transform -translate-x-1/2">
